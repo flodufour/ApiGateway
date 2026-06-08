@@ -1,0 +1,51 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Environment-specific config
+appsettings.*.json
+!appsettings.json
+
+# Secrets and credentials
+.env
+.env.*
+secrets.json
+*.pfx
+*.key
+*.pem
+*.p12
+*.cer
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
